@@ -1,0 +1,27 @@
+.header-container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #ff8b68;
+}
+.navbar{
+    background-color: #1a2456;
+    >.navbar-text{
+        color: #ff8b68;
+    }
+}
+.navbar-item{
+    color: #ff8b68;
+    margin-left: 10px;
+    margin-right: 10px;
+    >.navbar-item-inner{
+        background-color: #1a2456;
+        color: #ff8b68;
+    }
+   
+}
+.leading-logo{
+    height: 30px;
+    width:35px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

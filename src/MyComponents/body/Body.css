@@ -1,0 +1,13 @@
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    >.col{
+        margin: 10px;
+    }
+}
+.image-container-body{
+    
+  top:0;
+  margin-left: flex;
+  size: 20px;
+}
