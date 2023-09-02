@@ -1,13 +1,46 @@
-.row{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    >.col{
-        margin: 10px;
-    }
-}
-.image-container-body{
-    
+/* Body.css */
+
+/* Style for the image container section */
+.image-container-body {
+  text-align: center;
   top:0;
-  margin-left: flex;
-  size: 20px;
+  left:0;
+  right:0;
+  
+}
+
+/* Style for the cover image */
+.image-container-body img {
+  top:0;
+  left:0;
+  right:0;
+  width: 100%;
+  max-height: 1000px; /* Adjust the height as needed */
+  
+}
+
+/* Style for the scroll down button */
+.image-container-body .scroll-down-button {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 46px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* Additional styles for your cards and other content as needed */
+.row {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.col {
+  margin-left: 10px;
+  margin-right: 10px;
 }
